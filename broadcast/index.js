@@ -31,12 +31,12 @@ const client2 = new Client({
 // إعداد البوتين بعد أن يصبحوا جاهزين
 client1.once("ready", () => {
   console.log("Bot 1 is Ready!");
-  client1.user.setActivity({ name: "dis.gg/Flat", type: ActivityType.Streaming, url: "https://www.twitch.tv/Flat Store" });
+  client1.user.setActivity({ name: "AIN", type: ActivityType.Streaming, url: "https://www.twitch.tv/twitch" });
 });
 
 client2.once("ready", () => {
   console.log("Bot 2 is Ready!");
-  client2.user.setActivity({ name: "dis.gg/Flat", type: ActivityType.Streaming, url: "https://www.twitch.tv/Flat Store" });
+  client2.user.setActivity({ name: "AIN", type: ActivityType.Streaming, url: "https://www.twitch.tv/twitch" });
 });
 
 // وظيفة البرودكاست
