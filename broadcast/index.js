@@ -64,8 +64,8 @@ client1.on("messageCreate", async (message) => {
     .setColor('#868686')
     .setTitle('لوحة تحكم البرودكاست')
     .setDescription('الرجاء اختيار نوع الإرسال للأعضاء.')
-    .setImage('https://cdn.discordapp.com/attachments/1434615676097794058/1444345918064431164/Banner.png?ex=692c5f75&is=692b0df5&hm=444993ab6e46def820ffb2abac18b9d7a98120a75a55fd11ea4b4eeb227176ae&')
-    .setFooter({ text: 'This bot code by Flat Store', iconURL: 'https://cdn.discordapp.com/attachments/1434615676097794058/1444345922518651023/logo.png?ex=692c5f76&is=692b0df6&hm=24acec11de5462e54888b4c597dda817665eb20424ab49055ed792fdd7bd7d1e&' });
+    .setImage('https://cdn.discordapp.com/attachments/1456543407416676362/1458258678615375913/Tek_7.png?ex=695efcba&is=695dab3a&hm=cae223d99ea26b13cc99f56944ebd37633d14e0ab03a948c91f9be965fb9735a&')
+    .setFooter({ text: 'AIN ', iconURL: 'https://cdn.discordapp.com/attachments/1456543407416676362/1458258678615375913/Tek_7.png?ex=695efcba&is=695dab3a&hm=cae223d99ea26b13cc99f56944ebd37633d14e0ab03a948c91f9be965fb9735a&' });
 
   const row = new ActionRowBuilder().addComponents(
     new StringSelectMenuBuilder()
