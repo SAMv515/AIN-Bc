@@ -64,8 +64,8 @@ client1.on("messageCreate", async (message) => {
     .setColor('#868686')
     .setTitle('لوحة تحكم البرودكاست')
     .setDescription('الرجاء اختيار نوع الإرسال للأعضاء.')
-    .setImage('https://cdn.discordapp.com/attachments/1456543407416676362/1458258678615375913/Tek_7.png?ex=695efcba&is=695dab3a&hm=cae223d99ea26b13cc99f56944ebd37633d14e0ab03a948c91f9be965fb9735a&')
-    .setFooter({ text: 'AIN ', iconURL: 'https://cdn.discordapp.com/attachments/1456543407416676362/1458258678615375913/Tek_7.png?ex=695efcba&is=695dab3a&hm=cae223d99ea26b13cc99f56944ebd37633d14e0ab03a948c91f9be965fb9735a&' });
+    .setImage('https://media.discordapp.net/attachments/1447402769492217948/1458272835012399116/Tek_7.png?ex=695f09e9&is=695db869&hm=31c30dfb874875f4480b1a3e802caf39d01f58ede37ff60432e01e56adf503fe&=&format=webp&quality=lossless')
+    .setFooter({ text: 'AIN ', iconURL: 'https://media.discordapp.net/attachments/1447402769492217948/1458272835012399116/Tek_7.png?ex=695f09e9&is=695db869&hm=31c30dfb874875f4480b1a3e802caf39d01f58ede37ff60432e01e56adf503fe&=&format=webp&quality=lossless' });
 
   const row = new ActionRowBuilder().addComponents(
     new StringSelectMenuBuilder()
